@@ -1,0 +1,11 @@
+---
+# Remote Control Using Ansible
+- name: Remote Control Using Ansible
+  hosts: ubuntu
+  user: ubuntu
+  become: true
+  become_method: sudo
+  become_user: root
+  roles:
+   - prepare
+   - apache

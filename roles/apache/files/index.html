@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Hello world!
+        </title>
+    </head>
+    <body>
+        <h1>
+            Hello World, This page is served from Apache!
+        </h1>
+    </body>
+</html>
