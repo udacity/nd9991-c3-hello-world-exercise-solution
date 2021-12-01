@@ -8,7 +8,7 @@ Resources:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
       KeyName: AWS_Keypair_ND9991
-      ImageId: 'ami-09e67e426f25ce0d7' # you may need to find out what instance types are available in your region - use https://cloud-images.ubuntu.com/locator/ec2/
+      ImageId: 'ami-08edbb0e85d6a0a07' # you may need to find out what instance types are available in your region - use https://cloud-images.ubuntu.com/locator/ec2/
       InstanceType: t3.micro
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
