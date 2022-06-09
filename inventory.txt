@@ -1,5 +1,5 @@
 [ubuntu]
-ec2-3-93-3-88.compute-1.amazonaws.com
+3.93.3.88
 
 [all]
-ec2-3-93-3-88.compute-1.amazonaws.com
+3.93.3.88
