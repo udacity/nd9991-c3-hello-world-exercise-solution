@@ -2,4 +2,4 @@
 
 
 [all]
-
+ec2-3-95-210-89.compute-1.amazonaws.com
