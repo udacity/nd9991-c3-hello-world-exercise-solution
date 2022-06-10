@@ -1,5 +1,5 @@
 [ubuntu]
-ec2-44-202-133-69.compute-1.amazonaws.com
+
 
 [all]
-ec2-44-202-133-69.compute-1.amazonaws.com
+
