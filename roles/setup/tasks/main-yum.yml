@@ -10,12 +10,16 @@
     name: "*"
     state: latest
 
+- name: "curl node js"
+  become: true
+  shell:
+    cmd: curl --silent --location https://rpm.nodesource.com/setup_16.x | bash -
+
 - name: "install node dependencies"
   become: true
   yum:
     name:
       - nodejs
-      #- npm # TODO: additional steps required before installing this
     state: present
     update_cache: true
 
