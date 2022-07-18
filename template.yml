@@ -1,3 +1,4 @@
+.
 # Exercise - Rollback
 AWSTemplateFormatVersion: 2010-09-09
 Description: ND9991 C3 L4 
@@ -7,8 +8,11 @@ Resources:
     Properties:
       SecurityGroups:
         - !Ref InstanceSecurityGroup
-      KeyName: AWS_Keypair_ND9991
-      ImageId: 'ami-09e67e426f25ce0d7' # you may need to find out what instance types are available in your region - use https://cloud-images.ubuntu.com/locator/ec2/
+      # Change this, as applicable to you      
+      KeyName: udacity
+      # Change this, as applicable to you
+      # You may need to find out what instance types are available in your region - use https://cloud-images.ubuntu.com/locator/ec2/
+      ImageId: 'ami-09e67e426f25ce0d7' 
       InstanceType: t3.micro
   InstanceSecurityGroup:
     Type: 'AWS::EC2::SecurityGroup'
