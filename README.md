@@ -6,7 +6,7 @@
 Here is the list of files and corresponding exercises. 
 ```bash
 ├── ansible.cfg             ### 4. Exercise: Config and Deployment
-├── bucket.yml              ### 7. Exercise: Promote to Production
+├── bucket.yml              ### 7. Exercise: Promote to Production # is good
 ├── cloudfront.yml
 ├── error.html
 ├── index.html
